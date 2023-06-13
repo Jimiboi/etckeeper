@@ -1,0 +1,970 @@
+object Host "ais01p.ais-servis.cz"{
+	import "generic-http-host"
+	address = "ais01p.ais-servis.cz"
+	vars.http_check["ais01p.ais-servis.cz"] = {http_vhost = "ais01p.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "ais02p.ais-servis.cz"{
+	import "generic-http-host"
+	address = "ais02p.ais-servis.cz"
+	vars.http_check["ais02p.ais-servis.cz"] = {http_vhost = "ais02p.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "ais03p.ais-servis.cz"{
+	import "generic-http-host"
+	address = "ais03p.ais-servis.cz"
+	vars.http_check["ais03p.ais-servis.cz"] = {http_vhost = "ais03p.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "ais04p.ais-servis.cz"{
+	import "generic-http-host"
+	address = "ais04p.ais-servis.cz"
+	vars.http_check["ais04p.ais-servis.cz"] = {http_vhost = "ais04p.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "aisknzwebfedc1extpro1.internal.services"{
+	import "generic-http-host"
+	address = "aisknzwebfedc1extpro1.internal.services"
+	vars.http_check["aisknzwebfedc1extpro1.internal.services"] = {http_vhost = "aisknzwebfedc1extpro1.internal.services", http_onredirect = "follow"}	
+	}
+object Host "aisknzwebfedc1extpro2.internal.services"{
+	import "generic-http-host"
+	address = "aisknzwebfedc1extpro2.internal.services"
+	vars.http_check["aisknzwebfedc1extpro2.internal.services"] = {http_vhost = "aisknzwebfedc1extpro2.internal.services", http_onredirect = "follow"}	
+	}
+object Host "aisknzwebfedc1extpro3.internal.services"{
+	import "generic-http-host"
+	address = "aisknzwebfedc1extpro3.internal.services"
+	vars.http_check["aisknzwebfedc1extpro3.internal.services"] = {http_vhost = "aisknzwebfedc1extpro3.internal.services", http_onredirect = "follow"}	
+	}
+object Host "aisknzwebfedc1extpro4.internal.services"{
+	import "generic-http-host"
+	address = "aisknzwebfedc1extpro4.internal.services"
+	vars.http_check["aisknzwebfedc1extpro4.internal.services"] = {http_vhost = "aisknzwebfedc1extpro4.internal.services", http_onredirect = "follow"}	
+	}
+object Host "aisknzwebfedc1extpro5.internal.services"{
+	import "generic-http-host"
+	address = "aisknzwebfedc1extpro5.internal.services"
+	vars.http_check["aisknzwebfedc1extpro5.internal.services"] = {http_vhost = "aisknzwebfedc1extpro5.internal.services", http_onredirect = "follow"}	
+	}
+object Host "aisknzwebfedc1extpro6.internal.services"{
+	import "generic-http-host"
+	address = "aisknzwebfedc1extpro6.internal.services"
+	vars.http_check["aisknzwebfedc1extpro6.internal.services"] = {http_vhost = "aisknzwebfedc1extpro6.internal.services", http_onredirect = "follow"}	
+	}
+object Host "aisknzwebfedc1extpro7.internal.services"{
+	import "generic-http-host"
+	address = "aisknzwebfedc1extpro7.internal.services"
+	vars.http_check["aisknzwebfedc1extpro7.internal.services"] = {http_vhost = "aisknzwebfedc1extpro7.internal.services", http_onredirect = "follow"}	
+	}
+object Host "aisknzwebfedc1extpro8.internal.services"{
+	import "generic-http-host"
+	address = "aisknzwebfedc1extpro8.internal.services"
+	vars.http_check["aisknzwebfedc1extpro8.internal.services"] = {http_vhost = "aisknzwebfedc1extpro8.internal.services", http_onredirect = "follow"}	
+	}
+object Host "aisknzwebfedc1extpro9.internal.services"{
+	import "generic-http-host"
+	address = "aisknzwebfedc1extpro9.internal.services"
+	vars.http_check["aisknzwebfedc1extpro9.internal.services"] = {http_vhost = "aisknzwebfedc1extpro9.internal.services", http_onredirect = "follow"}	
+	}
+object Host "aisknzwebfedc1extpro10.internal.services"{
+	import "generic-http-host"
+	address = "aisknzwebfedc1extpro10.internal.services"
+	vars.http_check["aisknzwebfedc1extpro10.internal.services"] = {http_vhost = "aisknzwebfedc1extpro10.internal.services", http_onredirect = "follow"}	
+	}
+object Host "cpp01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "cpp01d.ais-servis.cz"
+	vars.http_check["cpp01d.ais-servis.cz"] = {http_vhost = "cpp01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "eisi-01.cpp01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "eisi-01.cpp01d.ais-servis.cz"
+	vars.http_check["eisi-01.cpp01d.ais-servis.cz"] = {http_vhost = "eisi-01.cpp01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "eisi-01.koop01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "eisi-01.koop01d.ais-servis.cz"
+	vars.http_check["eisi-01.koop01d.ais-servis.cz"] = {http_vhost = "eisi-01.koop01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "experta01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "experta01d.ais-servis.cz"
+	vars.http_check["experta01d.ais-servis.cz"] = {http_vhost = "experta01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "git.ais-servis.cz"{
+	import "generic-http-host"
+	address = "git.ais-servis.cz"
+	vars.http_check["git.ais-servis.cz"] = {http_vhost = "git.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "haproxy01.ais01p.ais-servis.cz"{
+	import "generic-http-host"
+	address = "haproxy01.ais01p.ais-servis.cz"
+	vars.http_check["haproxy01.ais01p.ais-servis.cz"] = {http_vhost = "haproxy01.ais01p.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "jenkins.ais04p.ais-servis.cz"{
+	import "generic-http-host"
+	address = "jenkins.ais04p.ais-servis.cz"
+	vars.http_check["jenkins.ais04p.ais-servis.cz"] = {http_vhost = "jenkins.ais04p.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-epz.cpp01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-epz.cpp01d.ais-servis.cz"
+	vars.http_check["knz-epz.cpp01d.ais-servis.cz"] = {http_vhost = "knz-epz.cpp01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-epz.koop01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-epz.koop01d.ais-servis.cz"
+	vars.http_check["knz-epz.koop01d.ais-servis.cz"] = {http_vhost = "knz-epz.koop01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-fd-01.cpp01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-fd-01.cpp01d.ais-servis.cz"
+	vars.http_check["knz-fd-01.cpp01d.ais-servis.cz"] = {http_vhost = "knz-fd-01.cpp01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-fd-01.koop01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-fd-01.koop01d.ais-servis.cz"
+	vars.http_check["knz-fd-01.koop01d.ais-servis.cz"] = {http_vhost = "knz-fd-01.koop01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-hierarchie-01.cpp01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-hierarchie-01.cpp01d.ais-servis.cz"
+	vars.http_check["knz-hierarchie-01.cpp01d.ais-servis.cz"] = {http_vhost = "knz-hierarchie-01.cpp01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-hierarchie-01.koop01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-hierarchie-01.koop01d.ais-servis.cz"
+	vars.http_check["knz-hierarchie-01.koop01d.ais-servis.cz"] = {http_vhost = "knz-hierarchie-01.koop01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-idm-01.cpp01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-idm-01.cpp01d.ais-servis.cz"
+	vars.http_check["knz-idm-01.cpp01d.ais-servis.cz"] = {http_vhost = "knz-idm-01.cpp01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-idm-01.koop01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-idm-01.koop01d.ais-servis.cz"
+	vars.http_check["knz-idm-01.koop01d.ais-servis.cz"] = {http_vhost = "knz-idm-01.koop01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-idm-02.cpp01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-idm-02.cpp01d.ais-servis.cz"
+	vars.http_check["knz-idm-02.cpp01d.ais-servis.cz"] = {http_vhost = "knz-idm-02.cpp01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-idm-02.koop01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-idm-02.koop01d.ais-servis.cz"
+	vars.http_check["knz-idm-02.koop01d.ais-servis.cz"] = {http_vhost = "knz-idm-02.koop01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-idm.cpp01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-idm.cpp01d.ais-servis.cz"
+	vars.http_check["knz-idm.cpp01d.ais-servis.cz"] = {http_vhost = "knz-idm.cpp01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-idm.koop01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-idm.koop01d.ais-servis.cz"
+	vars.http_check["knz-idm.koop01d.ais-servis.cz"] = {http_vhost = "knz-idm.koop01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-ivax-01.cpp01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-ivax-01.cpp01d.ais-servis.cz"
+	vars.http_check["knz-ivax-01.cpp01d.ais-servis.cz"] = {http_vhost = "knz-ivax-01.cpp01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-ivax-01.koop01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-ivax-01.koop01d.ais-servis.cz"
+	vars.http_check["knz-ivax-01.koop01d.ais-servis.cz"] = {http_vhost = "knz-ivax-01.koop01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-pruvodce-be-01.cpp01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-pruvodce-be-01.cpp01d.ais-servis.cz"
+	vars.http_check["knz-pruvodce-be-01.cpp01d.ais-servis.cz"] = {http_vhost = "knz-pruvodce-be-01.cpp01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-pruvodce-be-01.koop01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-pruvodce-be-01.koop01d.ais-servis.cz"
+	vars.http_check["knz-pruvodce-be-01.koop01d.ais-servis.cz"] = {http_vhost = "knz-pruvodce-be-01.koop01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-rest.cpp01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-rest.cpp01d.ais-servis.cz"
+	vars.http_check["knz-rest.cpp01d.ais-servis.cz"] = {http_vhost = "knz-rest.cpp01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-rest.koop01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-rest.koop01d.ais-servis.cz"
+	vars.http_check["knz-rest.koop01d.ais-servis.cz"] = {http_vhost = "knz-rest.koop01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-web-be-01.cpp01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-web-be-01.cpp01d.ais-servis.cz"
+	vars.http_check["knz-web-be-01.cpp01d.ais-servis.cz"] = {http_vhost = "knz-web-be-01.cpp01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-web-be-01.koop01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-web-be-01.koop01d.ais-servis.cz"
+	vars.http_check["knz-web-be-01.koop01d.ais-servis.cz"] = {http_vhost = "knz-web-be-01.koop01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-ws-be-01.cpp01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-ws-be-01.cpp01d.ais-servis.cz"
+	vars.http_check["knz-ws-be-01.cpp01d.ais-servis.cz"] = {http_vhost = "knz-ws-be-01.cpp01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-ws-be-01.koop01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-ws-be-01.koop01d.ais-servis.cz"
+	vars.http_check["knz-ws-be-01.koop01d.ais-servis.cz"] = {http_vhost = "knz-ws-be-01.koop01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-ws-int.cpp01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-ws-int.cpp01d.ais-servis.cz"
+	vars.http_check["knz-ws-int.cpp01d.ais-servis.cz"] = {http_vhost = "knz-ws-int.cpp01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-ws-int.koop01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-ws-int.koop01d.ais-servis.cz"
+	vars.http_check["knz-ws-int.koop01d.ais-servis.cz"] = {http_vhost = "knz-ws-int.koop01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-ws.cpp01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-ws.cpp01d.ais-servis.cz"
+	vars.http_check["knz-ws.cpp01d.ais-servis.cz"] = {http_vhost = "knz-ws.cpp01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-ws.koop01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-ws.koop01d.ais-servis.cz"
+	vars.http_check["knz-ws.koop01d.ais-servis.cz"] = {http_vhost = "knz-ws.koop01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-ziv-01.cpp01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-ziv-01.cpp01d.ais-servis.cz"
+	vars.http_check["knz-ziv-01.cpp01d.ais-servis.cz"] = {http_vhost = "knz-ziv-01.cpp01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-ziv-01.koop01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz-ziv-01.koop01d.ais-servis.cz"
+	vars.http_check["knz-ziv-01.koop01d.ais-servis.cz"] = {http_vhost = "knz-ziv-01.koop01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "knz.koop01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "knz.koop01d.ais-servis.cz"
+	vars.http_check["knz.koop01d.ais-servis.cz"] = {http_vhost = "knz.koop01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "koop01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "koop01d.ais-servis.cz"
+	vars.http_check["koop01d.ais-servis.cz"] = {http_vhost = "koop01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "koopedie-archiv.cpp01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "koopedie-archiv.cpp01d.ais-servis.cz"
+	vars.http_check["koopedie-archiv.cpp01d.ais-servis.cz"] = {http_vhost = "koopedie-archiv.cpp01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "koopedie-archiv.koop01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "koopedie-archiv.koop01d.ais-servis.cz"
+	vars.http_check["koopedie-archiv.koop01d.ais-servis.cz"] = {http_vhost = "koopedie-archiv.koop01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "koopedie.cpp01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "koopedie.cpp01d.ais-servis.cz"
+	vars.http_check["koopedie.cpp01d.ais-servis.cz"] = {http_vhost = "koopedie.cpp01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "koopedie.koop01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "koopedie.koop01d.ais-servis.cz"
+	vars.http_check["koopedie.koop01d.ais-servis.cz"] = {http_vhost = "koopedie.koop01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "pruvodce-fe.cpp01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "pruvodce-fe.cpp01d.ais-servis.cz"
+	vars.http_check["pruvodce-fe.cpp01d.ais-servis.cz"] = {http_vhost = "pruvodce-fe.cpp01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "pruvodce-fe.koop01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "pruvodce-fe.koop01d.ais-servis.cz"
+	vars.http_check["pruvodce-fe.koop01d.ais-servis.cz"] = {http_vhost = "pruvodce-fe.koop01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "surr.cpp01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "surr.cpp01d.ais-servis.cz"
+	vars.http_check["surr.cpp01d.ais-servis.cz"] = {http_vhost = "surr.cpp01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "surr.experta01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "surr.experta01d.ais-servis.cz"
+	vars.http_check["surr.experta01d.ais-servis.cz"] = {http_vhost = "surr.experta01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "surr.koop01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "surr.koop01d.ais-servis.cz"
+	vars.http_check["surr.koop01d.ais-servis.cz"] = {http_vhost = "surr.koop01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "surr.z12501d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "surr.z12501d.ais-servis.cz"
+	vars.http_check["surr.z12501d.ais-servis.cz"] = {http_vhost = "surr.z12501d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "susp.cpp01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "susp.cpp01d.ais-servis.cz"
+	vars.http_check["susp.cpp01d.ais-servis.cz"] = {http_vhost = "susp.cpp01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "vdp-download.cpp01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "vdp-download.cpp01d.ais-servis.cz"
+	vars.http_check["vdp-download.cpp01d.ais-servis.cz"] = {http_vhost = "vdp-download.cpp01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "vdp-download.koop01d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "vdp-download.koop01d.ais-servis.cz"
+	vars.http_check["vdp-download.koop01d.ais-servis.cz"] = {http_vhost = "vdp-download.koop01d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "z12501d.ais-servis.cz"{
+	import "generic-http-host"
+	address = "z12501d.ais-servis.cz"
+	vars.http_check["z12501d.ais-servis.cz"] = {http_vhost = "z12501d.ais-servis.cz", http_onredirect = "follow"}	
+	}
+object Host "idp.vig.cz"{
+	import "generic-http-host"
+	address = "idp.vig.cz"
+	vars.http_check["idp.vig.cz"] = {http_vhost = "idp.vig.cz", http_onredirect = "follow"}	
+	}
+object Host "knz-test.koop.cz"{
+	import "generic-http-host"
+	address = "knz-test.koop.cz"
+	vars.http_check["knz-test.koop.cz"] = {http_vhost = "knz-test.koop.cz", http_onredirect = "follow"}	
+	}
+object Host "knz.koop.cz"{
+	import "generic-http-host"
+	address = "knz.koop.cz"
+	vars.http_check["knz.koop.cz"] = {http_vhost = "knz.koop.cz", http_onredirect = "follow"}	
+	}
+object Host "moje.cpp.cz"{
+	import "generic-http-host"
+	address = "moje.cpp.cz"
+	vars.http_check["moje.cpp.cz"] = {http_vhost = "moje.cpp.cz", http_onredirect = "follow"}	
+	}
+object Host "oidc.bankid.cz"{
+	import "generic-http-host"
+	address = "oidc.bankid.cz"
+	vars.http_check["oidc.bankid.cz"] = {http_vhost = "oidc.bankid.cz", http_onredirect = "follow"}	
+	}
+object Host "status.bankid.cz"{
+	import "generic-http-host"
+	address = "status.bankid.cz"
+	vars.http_check["status.bankid.cz"] = {http_vhost = "status.bankid.cz", http_onredirect = "follow"}	
+	}
+object Host "susp-test2.cpp.cz"{
+	import "generic-http-host"
+	address = "susp-test2.cpp.cz"
+	vars.http_check["susp-test2.cpp.cz"] = {http_vhost = "susp-test2.cpp.cz", http_onredirect = "follow"}	
+	}
+object Host "susp.cpp.cz"{
+	import "generic-http-host"
+	address = "susp.cpp.cz"
+	vars.http_check["susp.cpp.cz"] = {http_vhost = "susp.cpp.cz", http_onredirect = "follow"}	
+	}
+object Host "zona.koop.cz"{
+	import "generic-http-host"
+	address = "zona.koop.cz"
+	vars.http_check["zona.koop.cz"] = {http_vhost = "zona.koop.cz", http_onredirect = "follow"}	
+	}
+object Host "adfs.koop.cz"{
+	import "generic-http-host"
+	address = "adfs.koop.cz"
+	vars.http_check["adfs.koop.cz"] = {http_vhost = "adfs.koop.cz", http_onredirect = "follow"}	
+	}
+object Host "aisdc1eisirmskoopprod-01.internal.services"{
+	import "generic-http-host"
+	address = "aisdc1eisirmskoopprod-01.internal.services"
+	vars.http_check["aisdc1eisirmskoopprod-01.internal.services"] = {http_vhost = "aisdc1eisirmskoopprod-01.internal.services", http_onredirect = "follow"}	
+	}
+object Host "aisdstrb-01.internal.services"{
+	import "generic-http-host"
+	address = "aisdstrb-01.internal.services"
+	vars.http_check["aisdstrb-01.internal.services"] = {http_vhost = "aisdstrb-01.internal.services", http_onredirect = "follow"}	
+	}
+object Host "aisdstrb-04.internal.services"{
+	import "generic-http-host"
+	address = "aisdstrb-04.internal.services"
+	vars.http_check["aisdstrb-04.internal.services"] = {http_vhost = "aisdstrb-04.internal.services", http_onredirect = "follow"}	
+	}
+object Host "aisdstrbtst-01.internal.services"{
+	import "generic-http-host"
+	address = "aisdstrbtst-01.internal.services"
+	vars.http_check["aisdstrbtst-01.internal.services"] = {http_vhost = "aisdstrbtst-01.internal.services", http_onredirect = "follow"}	
+	}
+object Host "aisdstrbtst-04.internal.services"{
+	import "generic-http-host"
+	address = "aisdstrbtst-04.internal.services"
+	vars.http_check["aisdstrbtst-04.internal.services"] = {http_vhost = "aisdstrbtst-04.internal.services", http_onredirect = "follow"}	
+	}
+object Host "aisknzidmdc1pro1.internal.services"{
+	import "generic-http-host"
+	address = "aisknzidmdc1pro1.internal.services"
+	vars.http_check["aisknzidmdc1pro1.internal.services"] = {http_vhost = "aisknzidmdc1pro1.internal.services", http_onredirect = "follow"}	
+	}
+object Host "aisknzidmdc1pro2.internal.services"{
+	import "generic-http-host"
+	address = "aisknzidmdc1pro2.internal.services"
+	vars.http_check["aisknzidmdc1pro2.internal.services"] = {http_vhost = "aisknzidmdc1pro2.internal.services", http_onredirect = "follow"}	
+	}
+object Host "aisknzidmdc1tst1.internal.services"{
+	import "generic-http-host"
+	address = "aisknzidmdc1tst1.internal.services"
+	vars.http_check["aisknzidmdc1tst1.internal.services"] = {http_vhost = "aisknzidmdc1tst1.internal.services", http_onredirect = "follow"}	
+	}
+object Host "aisknzidmdc2pro1.internal.services"{
+	import "generic-http-host"
+	address = "aisknzidmdc2pro1.internal.services"
+	vars.http_check["aisknzidmdc2pro1.internal.services"] = {http_vhost = "aisknzidmdc2pro1.internal.services", http_onredirect = "follow"}	
+	}
+object Host "aisknzidmdc2pro2.internal.services"{
+	import "generic-http-host"
+	address = "aisknzidmdc2pro2.internal.services"
+	vars.http_check["aisknzidmdc2pro2.internal.services"] = {http_vhost = "aisknzidmdc2pro2.internal.services", http_onredirect = "follow"}	
+	}
+object Host "aisknzidmdc2tst1.internal.services"{
+	import "generic-http-host"
+	address = "aisknzidmdc2tst1.internal.services"
+	vars.http_check["aisknzidmdc2tst1.internal.services"] = {http_vhost = "aisknzidmdc2tst1.internal.services", http_onredirect = "follow"}	
+	}
+object Host "aisknzwebbeprod-01.internal.services"{
+	import "generic-http-host"
+	address = "aisknzwebbeprod-01.internal.services"
+	vars.http_check["aisknzwebbeprod-01.internal.services"] = {http_vhost = "aisknzwebbeprod-01.internal.services", http_onredirect = "follow"}	
+	}
+object Host "aissuspknzidmdc1pro1.internal.services"{
+	import "generic-http-host"
+	address = "aissuspknzidmdc1pro1.internal.services"
+	vars.http_check["aissuspknzidmdc1pro1.internal.services"] = {http_vhost = "aissuspknzidmdc1pro1.internal.services", http_onredirect = "follow"}	
+	}
+object Host "aissuspknzidmdc1tst1.internal.services"{
+	import "generic-http-host"
+	address = "aissuspknzidmdc1tst1.internal.services"
+	vars.http_check["aissuspknzidmdc1tst1.internal.services"] = {http_vhost = "aissuspknzidmdc1tst1.internal.services", http_onredirect = "follow"}	
+	}
+object Host "aissuspknzidmdc2pro1.internal.services"{
+	import "generic-http-host"
+	address = "aissuspknzidmdc2pro1.internal.services"
+	vars.http_check["aissuspknzidmdc2pro1.internal.services"] = {http_vhost = "aissuspknzidmdc2pro1.internal.services", http_onredirect = "follow"}	
+	}
+object Host "aissuspknzidmdc2tst1.internal.services"{
+	import "generic-http-host"
+	address = "aissuspknzidmdc2tst1.internal.services"
+	vars.http_check["aissuspknzidmdc2tst1.internal.services"] = {http_vhost = "aissuspknzidmdc2tst1.internal.services", http_onredirect = "follow"}	
+	}
+object Host "aissuspknzwebbeprod-01.internal.services"{
+	import "generic-http-host"
+	address = "aissuspknzwebbeprod-01.internal.services"
+	vars.http_check["aissuspknzwebbeprod-01.internal.services"] = {http_vhost = "aissuspknzwebbeprod-01.internal.services", http_onredirect = "follow"}	
+	}
+object Host "app-68.internal.services"{
+	import "generic-http-host"
+	address = "app-68.internal.services"
+	vars.http_check["app-68.internal.services"] = {http_vhost = "app-68.internal.services", http_onredirect = "follow"}	
+	}
+object Host "app-69.internal.services"{
+	import "generic-http-host"
+	address = "app-69.internal.services"
+	vars.http_check["app-69.internal.services"] = {http_vhost = "app-69.internal.services", http_onredirect = "follow"}	
+	}
+object Host "app-70.internal.services"{
+	import "generic-http-host"
+	address = "app-70.internal.services"
+	vars.http_check["app-70.internal.services"] = {http_vhost = "app-70.internal.services", http_onredirect = "follow"}	
+	}
+object Host "app-71.internal.services"{
+	import "generic-http-host"
+	address = "app-71.internal.services"
+	vars.http_check["app-71.internal.services"] = {http_vhost = "app-71.internal.services", http_onredirect = "follow"}	
+	}
+object Host "apress-test.cpp.cz"{
+	import "generic-http-host"
+	address = "apress-test.cpp.cz"
+	vars.http_check["apress-test.cpp.cz"] = {http_vhost = "apress-test.cpp.cz", http_onredirect = "follow"}	
+	}
+object Host "apress-test.ph.koop.cz"{
+	import "generic-http-host"
+	address = "apress-test.ph.koop.cz"
+	vars.http_check["apress-test.ph.koop.cz"] = {http_vhost = "apress-test.ph.koop.cz", http_onredirect = "follow"}	
+	}
+object Host "apress.cpp.cz"{
+	import "generic-http-host"
+	address = "apress.cpp.cz"
+	vars.http_check["apress.cpp.cz"] = {http_vhost = "apress.cpp.cz", http_onredirect = "follow"}	
+	}
+object Host "apress.ph.koop.cz"{
+	import "generic-http-host"
+	address = "apress.ph.koop.cz"
+	vars.http_check["apress.ph.koop.cz"] = {http_vhost = "apress.ph.koop.cz", http_onredirect = "follow"}	
+	}
+object Host "argocd.prod.appl.services"{
+	import "generic-http-host"
+	address = "argocd.prod.appl.services"
+	vars.http_check["argocd.prod.appl.services"] = {http_vhost = "argocd.prod.appl.services", http_onredirect = "follow"}	
+	}
+object Host "argocd.tst.appl.services"{
+	import "generic-http-host"
+	address = "argocd.tst.appl.services"
+	vars.http_check["argocd.tst.appl.services"] = {http_vhost = "argocd.tst.appl.services", http_onredirect = "follow"}	
+	}
+object Host "bos-change-tickets.ing.k8spdcboskoopprod-01.ifr.services"{
+	import "generic-http-host"
+	address = "bos-change-tickets.ing.k8spdcboskoopprod-01.ifr.services"
+	vars.http_check["bos-change-tickets.ing.k8spdcboskoopprod-01.ifr.services"] = {http_vhost = "bos-change-tickets.ing.k8spdcboskoopprod-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "bos-change-tickets.ing.k8spdcboskooptst-01.ifr.services"{
+	import "generic-http-host"
+	address = "bos-change-tickets.ing.k8spdcboskooptst-01.ifr.services"
+	vars.http_check["bos-change-tickets.ing.k8spdcboskooptst-01.ifr.services"] = {http_vhost = "bos-change-tickets.ing.k8spdcboskooptst-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "bos-contracts.ing.k8spdcboscppprod-01.ifr.services"{
+	import "generic-http-host"
+	address = "bos-contracts.ing.k8spdcboscppprod-01.ifr.services"
+	vars.http_check["bos-contracts.ing.k8spdcboscppprod-01.ifr.services"] = {http_vhost = "bos-contracts.ing.k8spdcboscppprod-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "bos-contracts.ing.k8spdcboskoopprod-01.ifr.services"{
+	import "generic-http-host"
+	address = "bos-contracts.ing.k8spdcboskoopprod-01.ifr.services"
+	vars.http_check["bos-contracts.ing.k8spdcboskoopprod-01.ifr.services"] = {http_vhost = "bos-contracts.ing.k8spdcboskoopprod-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "bos-contracts.ing.k8spdcboskooptst-01.ifr.services"{
+	import "generic-http-host"
+	address = "bos-contracts.ing.k8spdcboskooptst-01.ifr.services"
+	vars.http_check["bos-contracts.ing.k8spdcboskooptst-01.ifr.services"] = {http_vhost = "bos-contracts.ing.k8spdcboskooptst-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "bos-dmo-agents.ing.k8spdcboscppprod-01.ifr.services"{
+	import "generic-http-host"
+	address = "bos-dmo-agents.ing.k8spdcboscppprod-01.ifr.services"
+	vars.http_check["bos-dmo-agents.ing.k8spdcboscppprod-01.ifr.services"] = {http_vhost = "bos-dmo-agents.ing.k8spdcboscppprod-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "bos-dmo-agents.ing.k8spdcboskoopprod-01.ifr.services"{
+	import "generic-http-host"
+	address = "bos-dmo-agents.ing.k8spdcboskoopprod-01.ifr.services"
+	vars.http_check["bos-dmo-agents.ing.k8spdcboskoopprod-01.ifr.services"] = {http_vhost = "bos-dmo-agents.ing.k8spdcboskoopprod-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "bos-dmo-agents.ing.k8spdcboskooptst-01.ifr.services"{
+	import "generic-http-host"
+	address = "bos-dmo-agents.ing.k8spdcboskooptst-01.ifr.services"
+	vars.http_check["bos-dmo-agents.ing.k8spdcboskooptst-01.ifr.services"] = {http_vhost = "bos-dmo-agents.ing.k8spdcboskooptst-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "bos-documents.ing.k8spdcboscppprod-01.ifr.services"{
+	import "generic-http-host"
+	address = "bos-documents.ing.k8spdcboscppprod-01.ifr.services"
+	vars.http_check["bos-documents.ing.k8spdcboscppprod-01.ifr.services"] = {http_vhost = "bos-documents.ing.k8spdcboscppprod-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "bos-documents.ing.k8spdcboskoopprod-01.ifr.services"{
+	import "generic-http-host"
+	address = "bos-documents.ing.k8spdcboskoopprod-01.ifr.services"
+	vars.http_check["bos-documents.ing.k8spdcboskoopprod-01.ifr.services"] = {http_vhost = "bos-documents.ing.k8spdcboskoopprod-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "bos-documents.ing.k8spdcboskooptst-01.ifr.services"{
+	import "generic-http-host"
+	address = "bos-documents.ing.k8spdcboskooptst-01.ifr.services"
+	vars.http_check["bos-documents.ing.k8spdcboskooptst-01.ifr.services"] = {http_vhost = "bos-documents.ing.k8spdcboskooptst-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "bos-gdpr-info.ing.k8spdcboskoopprod-01.ifr.services"{
+	import "generic-http-host"
+	address = "bos-gdpr-info.ing.k8spdcboskoopprod-01.ifr.services"
+	vars.http_check["bos-gdpr-info.ing.k8spdcboskoopprod-01.ifr.services"] = {http_vhost = "bos-gdpr-info.ing.k8spdcboskoopprod-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "bos-greencard.ing.k8spdcboscppprod-01.ifr.services"{
+	import "generic-http-host"
+	address = "bos-greencard.ing.k8spdcboscppprod-01.ifr.services"
+	vars.http_check["bos-greencard.ing.k8spdcboscppprod-01.ifr.services"] = {http_vhost = "bos-greencard.ing.k8spdcboscppprod-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "bos-greencard.ing.k8spdcboskoopprod-01.ifr.services"{
+	import "generic-http-host"
+	address = "bos-greencard.ing.k8spdcboskoopprod-01.ifr.services"
+	vars.http_check["bos-greencard.ing.k8spdcboskoopprod-01.ifr.services"] = {http_vhost = "bos-greencard.ing.k8spdcboskoopprod-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "bos-greencard.ing.k8spdcboskooptst-01.ifr.services"{
+	import "generic-http-host"
+	address = "bos-greencard.ing.k8spdcboskooptst-01.ifr.services"
+	vars.http_check["bos-greencard.ing.k8spdcboskooptst-01.ifr.services"] = {http_vhost = "bos-greencard.ing.k8spdcboskooptst-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "bos-life-risks.ing.k8spdcboscppprod-01.ifr.services"{
+	import "generic-http-host"
+	address = "bos-life-risks.ing.k8spdcboscppprod-01.ifr.services"
+	vars.http_check["bos-life-risks.ing.k8spdcboscppprod-01.ifr.services"] = {http_vhost = "bos-life-risks.ing.k8spdcboscppprod-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "bos-life-risks.ing.k8spdcboskoopprod-01.ifr.services"{
+	import "generic-http-host"
+	address = "bos-life-risks.ing.k8spdcboskoopprod-01.ifr.services"
+	vars.http_check["bos-life-risks.ing.k8spdcboskoopprod-01.ifr.services"] = {http_vhost = "bos-life-risks.ing.k8spdcboskoopprod-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "bos-life-risks.ing.k8spdcboskooptst-01.ifr.services"{
+	import "generic-http-host"
+	address = "bos-life-risks.ing.k8spdcboskooptst-01.ifr.services"
+	vars.http_check["bos-life-risks.ing.k8spdcboskooptst-01.ifr.services"] = {http_vhost = "bos-life-risks.ing.k8spdcboskooptst-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "bos-parties.ing.k8spdcboscppprod-01.ifr.services"{
+	import "generic-http-host"
+	address = "bos-parties.ing.k8spdcboscppprod-01.ifr.services"
+	vars.http_check["bos-parties.ing.k8spdcboscppprod-01.ifr.services"] = {http_vhost = "bos-parties.ing.k8spdcboscppprod-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "bos-parties.ing.k8spdcboskoopprod-01.ifr.services"{
+	import "generic-http-host"
+	address = "bos-parties.ing.k8spdcboskoopprod-01.ifr.services"
+	vars.http_check["bos-parties.ing.k8spdcboskoopprod-01.ifr.services"] = {http_vhost = "bos-parties.ing.k8spdcboskoopprod-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "bos-parties.ing.k8spdcboskooptst-01.ifr.services"{
+	import "generic-http-host"
+	address = "bos-parties.ing.k8spdcboskooptst-01.ifr.services"
+	vars.http_check["bos-parties.ing.k8spdcboskooptst-01.ifr.services"] = {http_vhost = "bos-parties.ing.k8spdcboskooptst-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "bos-payments.ing.k8spdcboscppprod-01.ifr.services"{
+	import "generic-http-host"
+	address = "bos-payments.ing.k8spdcboscppprod-01.ifr.services"
+	vars.http_check["bos-payments.ing.k8spdcboscppprod-01.ifr.services"] = {http_vhost = "bos-payments.ing.k8spdcboscppprod-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "bos-payments.ing.k8spdcboskoopprod-01.ifr.services"{
+	import "generic-http-host"
+	address = "bos-payments.ing.k8spdcboskoopprod-01.ifr.services"
+	vars.http_check["bos-payments.ing.k8spdcboskoopprod-01.ifr.services"] = {http_vhost = "bos-payments.ing.k8spdcboskoopprod-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "bos-payments.ing.k8spdcboskooptst-01.ifr.services"{
+	import "generic-http-host"
+	address = "bos-payments.ing.k8spdcboskooptst-01.ifr.services"
+	vars.http_check["bos-payments.ing.k8spdcboskooptst-01.ifr.services"] = {http_vhost = "bos-payments.ing.k8spdcboskooptst-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "bosalfresco.appl.services"{
+	import "generic-http-host"
+	address = "bosalfresco.appl.services"
+	vars.http_check["bosalfresco.appl.services"] = {http_vhost = "bosalfresco.appl.services", http_onredirect = "follow"}	
+	}
+object Host "c11n-test.cpp.cz"{
+	import "generic-http-host"
+	address = "c11n-test.cpp.cz"
+	vars.http_check["c11n-test.cpp.cz"] = {http_vhost = "c11n-test.cpp.cz", http_onredirect = "follow"}	
+	}
+object Host "c11n-test.ph.koop.cz"{
+	import "generic-http-host"
+	address = "c11n-test.ph.koop.cz"
+	vars.http_check["c11n-test.ph.koop.cz"] = {http_vhost = "c11n-test.ph.koop.cz", http_onredirect = "follow"}	
+	}
+object Host "c11n.cpp.cz"{
+	import "generic-http-host"
+	address = "c11n.cpp.cz"
+	vars.http_check["c11n.cpp.cz"] = {http_vhost = "c11n.cpp.cz", http_onredirect = "follow"}	
+	}
+object Host "c11n.ph.koop.cz"{
+	import "generic-http-host"
+	address = "c11n.ph.koop.cz"
+	vars.http_check["c11n.ph.koop.cz"] = {http_vhost = "c11n.ph.koop.cz", http_onredirect = "follow"}	
+	}
+object Host "eisicpptst.appl.services"{
+	import "generic-http-host"
+	address = "eisicpptst.appl.services"
+	vars.http_check["eisicpptst.appl.services"] = {http_vhost = "eisicpptst.appl.services", http_onredirect = "follow"}	
+	}
+object Host "eisigolemcppprod.appl.services"{
+	import "generic-http-host"
+	address = "eisigolemcppprod.appl.services"
+	vars.http_check["eisigolemcppprod.appl.services"] = {http_vhost = "eisigolemcppprod.appl.services", http_onredirect = "follow"}	
+	}
+object Host "eisigolemkoopprod.appl.services"{
+	import "generic-http-host"
+	address = "eisigolemkoopprod.appl.services"
+	vars.http_check["eisigolemkoopprod.appl.services"] = {http_vhost = "eisigolemkoopprod.appl.services", http_onredirect = "follow"}	
+	}
+object Host "eisikooptst.appl.services"{
+	import "generic-http-host"
+	address = "eisikooptst.appl.services"
+	vars.http_check["eisikooptst.appl.services"] = {http_vhost = "eisikooptst.appl.services", http_onredirect = "follow"}	
+	}
+object Host "eisirmscppprod.appl.services"{
+	import "generic-http-host"
+	address = "eisirmscppprod.appl.services"
+	vars.http_check["eisirmscppprod.appl.services"] = {http_vhost = "eisirmscppprod.appl.services", http_onredirect = "follow"}	
+	}
+object Host "eisirmskoopprod.appl.services"{
+	import "generic-http-host"
+	address = "eisirmskoopprod.appl.services"
+	vars.http_check["eisirmskoopprod.appl.services"] = {http_vhost = "eisirmskoopprod.appl.services", http_onredirect = "follow"}	
+	}
+object Host "eisiwsscppprod.appl.services"{
+	import "generic-http-host"
+	address = "eisiwsscppprod.appl.services"
+	vars.http_check["eisiwsscppprod.appl.services"] = {http_vhost = "eisiwsscppprod.appl.services", http_onredirect = "follow"}	
+	}
+object Host "eisiwsskoopprod.appl.services"{
+	import "generic-http-host"
+	address = "eisiwsskoopprod.appl.services"
+	vars.http_check["eisiwsskoopprod.appl.services"] = {http_vhost = "eisiwsskoopprod.appl.services", http_onredirect = "follow"}	
+	}
+object Host "exsurr-test.ph.koop.cz"{
+	import "generic-http-host"
+	address = "exsurr-test.ph.koop.cz"
+	vars.http_check["exsurr-test.ph.koop.cz"] = {http_vhost = "exsurr-test.ph.koop.cz", http_onredirect = "follow"}	
+	}
+object Host "exsurr-ws-test.ph.koop.cz"{
+	import "generic-http-host"
+	address = "exsurr-ws-test.ph.koop.cz"
+	vars.http_check["exsurr-ws-test.ph.koop.cz"] = {http_vhost = "exsurr-ws-test.ph.koop.cz", http_onredirect = "follow"}	
+	}
+object Host "exsurr-ws.ph.koop.cz"{
+	import "generic-http-host"
+	address = "exsurr-ws.ph.koop.cz"
+	vars.http_check["exsurr-ws.ph.koop.cz"] = {http_vhost = "exsurr-ws.ph.koop.cz", http_onredirect = "follow"}	
+	}
+object Host "extraordinary-commissions.ing.k8spdccppprod-01.ifr.services"{
+	import "generic-http-host"
+	address = "extraordinary-commissions.ing.k8spdccppprod-01.ifr.services"
+	vars.http_check["extraordinary-commissions.ing.k8spdccppprod-01.ifr.services"] = {http_vhost = "extraordinary-commissions.ing.k8spdccppprod-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "gbp-a9-ws.ing.k8sdmzpdckoopprod-01.ifr.services"{
+	import "generic-http-host"
+	address = "gbp-a9-ws.ing.k8sdmzpdckoopprod-01.ifr.services"
+	vars.http_check["gbp-a9-ws.ing.k8sdmzpdckoopprod-01.ifr.services"] = {http_vhost = "gbp-a9-ws.ing.k8sdmzpdckoopprod-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "ge-ws-test.gexp.cz"{
+	import "generic-http-host"
+	address = "ge-ws-test.gexp.cz"
+	vars.http_check["ge-ws-test.gexp.cz"] = {http_vhost = "ge-ws-test.gexp.cz", http_onredirect = "follow"}	
+	}
+object Host "ge-ws.gexp.cz"{
+	import "generic-http-host"
+	address = "ge-ws.gexp.cz"
+	vars.http_check["ge-ws.gexp.cz"] = {http_vhost = "ge-ws.gexp.cz", http_onredirect = "follow"}	
+	}
+object Host "go2sap.cpp.cz"{
+	import "generic-http-host"
+	address = "go2sap.cpp.cz"
+	vars.http_check["go2sap.cpp.cz"] = {http_vhost = "go2sap.cpp.cz", http_onredirect = "follow"}	
+	}
+object Host "go2sap.ph.koop.cz"{
+	import "generic-http-host"
+	address = "go2sap.ph.koop.cz"
+	vars.http_check["go2sap.ph.koop.cz"] = {http_vhost = "go2sap.ph.koop.cz", http_onredirect = "follow"}	
+	}
+object Host "idpcasemco13.internal.services"{
+	import "generic-http-host"
+	address = "idpcasemco13.internal.services"
+	vars.http_check["idpcasemco13.internal.services"] = {http_vhost = "idpcasemco13.internal.services", http_onredirect = "follow"}	
+	}
+object Host "idpcasemco23.internal.services"{
+	import "generic-http-host"
+	address = "idpcasemco23.internal.services"
+	vars.http_check["idpcasemco23.internal.services"] = {http_vhost = "idpcasemco23.internal.services", http_onredirect = "follow"}	
+	}
+object Host "k8sdmzpdccppprod-01.ifr.services"{
+	import "generic-http-host"
+	address = "k8sdmzpdccppprod-01.ifr.services"
+	vars.http_check["k8sdmzpdccppprod-01.ifr.services"] = {http_vhost = "k8sdmzpdccppprod-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "k8sdmzpdckoopprod-01.ifr.services"{
+	import "generic-http-host"
+	address = "k8sdmzpdckoopprod-01.ifr.services"
+	vars.http_check["k8sdmzpdckoopprod-01.ifr.services"] = {http_vhost = "k8sdmzpdckoopprod-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "k8spdcboscppprod-01.ifr.services"{
+	import "generic-http-host"
+	address = "k8spdcboscppprod-01.ifr.services"
+	vars.http_check["k8spdcboscppprod-01.ifr.services"] = {http_vhost = "k8spdcboscppprod-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "k8spdcboscpptst-01.ifr.services"{
+	import "generic-http-host"
+	address = "k8spdcboscpptst-01.ifr.services"
+	vars.http_check["k8spdcboscpptst-01.ifr.services"] = {http_vhost = "k8spdcboscpptst-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "k8spdcboskoopprod-01.ifr.services"{
+	import "generic-http-host"
+	address = "k8spdcboskoopprod-01.ifr.services"
+	vars.http_check["k8spdcboskoopprod-01.ifr.services"] = {http_vhost = "k8spdcboskoopprod-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "k8spdcboskooptst-01.ifr.services"{
+	import "generic-http-host"
+	address = "k8spdcboskooptst-01.ifr.services"
+	vars.http_check["k8spdcboskooptst-01.ifr.services"] = {http_vhost = "k8spdcboskooptst-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "k8spdccppprod-01.ifr.services"{
+	import "generic-http-host"
+	address = "k8spdccppprod-01.ifr.services"
+	vars.http_check["k8spdccppprod-01.ifr.services"] = {http_vhost = "k8spdccppprod-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "k8spdccpptst-01.ifr.services"{
+	import "generic-http-host"
+	address = "k8spdccpptst-01.ifr.services"
+	vars.http_check["k8spdccpptst-01.ifr.services"] = {http_vhost = "k8spdccpptst-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "k8spdckoopprod-01.ifr.services"{
+	import "generic-http-host"
+	address = "k8spdckoopprod-01.ifr.services"
+	vars.http_check["k8spdckoopprod-01.ifr.services"] = {http_vhost = "k8spdckoopprod-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "k8spdckooptst-01.ifr.services"{
+	import "generic-http-host"
+	address = "k8spdckooptst-01.ifr.services"
+	vars.http_check["k8spdckooptst-01.ifr.services"] = {http_vhost = "k8spdckooptst-01.ifr.services", http_onredirect = "follow"}	
+	}
+object Host "knz-idm.test.cpp.appl.services"{
+	import "generic-http-host"
+	address = "knz-idm.test.cpp.appl.services"
+	vars.http_check["knz-idm.test.cpp.appl.services"] = {http_vhost = "knz-idm.test.cpp.appl.services", http_onredirect = "follow"}	
+	}
+object Host "knz-idm.test.koop.appl.services"{
+	import "generic-http-host"
+	address = "knz-idm.test.koop.appl.services"
+	vars.http_check["knz-idm.test.koop.appl.services"] = {http_vhost = "knz-idm.test.koop.appl.services", http_onredirect = "follow"}	
+	}
+object Host "signproxy-test.cpp.cz"{
+	import "generic-http-host"
+	address = "signproxy-test.cpp.cz"
+	vars.http_check["signproxy-test.cpp.cz"] = {http_vhost = "signproxy-test.cpp.cz", http_onredirect = "follow"}	
+	}
+object Host "signproxy-test.ph.koop.cz"{
+	import "generic-http-host"
+	address = "signproxy-test.ph.koop.cz"
+	vars.http_check["signproxy-test.ph.koop.cz"] = {http_vhost = "signproxy-test.ph.koop.cz", http_onredirect = "follow"}	
+	}
+object Host "signproxy.cpp.cz"{
+	import "generic-http-host"
+	address = "signproxy.cpp.cz"
+	vars.http_check["signproxy.cpp.cz"] = {http_vhost = "signproxy.cpp.cz", http_onredirect = "follow"}	
+	}
+object Host "signproxy.ph.koop.cz"{
+	import "generic-http-host"
+	address = "signproxy.ph.koop.cz"
+	vars.http_check["signproxy.ph.koop.cz"] = {http_vhost = "signproxy.ph.koop.cz", http_onredirect = "follow"}	
+	}
+object Host "sms-gw-koop-hp.zam.koop.int"{
+	import "generic-http-host"
+	address = "sms-gw-koop-hp.zam.koop.int"
+	vars.http_check["sms-gw-koop-hp.zam.koop.int"] = {http_vhost = "sms-gw-koop-hp.zam.koop.int", http_onredirect = "follow"}	
+	}
+object Host "smsgw11.koop.int"{
+	import "generic-http-host"
+	address = "smsgw11.koop.int"
+	vars.http_check["smsgw11.koop.int"] = {http_vhost = "smsgw11.koop.int", http_onredirect = "follow"}	
+	}
+object Host "smsgw12.koop.int"{
+	import "generic-http-host"
+	address = "smsgw12.koop.int"
+	vars.http_check["smsgw12.koop.int"] = {http_vhost = "smsgw12.koop.int", http_onredirect = "follow"}	
+	}
+object Host "surr-batch-test.cpp.cz"{
+	import "generic-http-host"
+	address = "surr-batch-test.cpp.cz"
+	vars.http_check["surr-batch-test.cpp.cz"] = {http_vhost = "surr-batch-test.cpp.cz", http_onredirect = "follow"}	
+	}
+object Host "surr-batch-test.ph.koop.cz"{
+	import "generic-http-host"
+	address = "surr-batch-test.ph.koop.cz"
+	vars.http_check["surr-batch-test.ph.koop.cz"] = {http_vhost = "surr-batch-test.ph.koop.cz", http_onredirect = "follow"}	
+	}
+object Host "surr-batch.cpp.cz"{
+	import "generic-http-host"
+	address = "surr-batch.cpp.cz"
+	vars.http_check["surr-batch.cpp.cz"] = {http_vhost = "surr-batch.cpp.cz", http_onredirect = "follow"}	
+	}
+object Host "surr-batch.ph.koop.cz"{
+	import "generic-http-host"
+	address = "surr-batch.ph.koop.cz"
+	vars.http_check["surr-batch.ph.koop.cz"] = {http_vhost = "surr-batch.ph.koop.cz", http_onredirect = "follow"}	
+	}
+object Host "surr-test.cpp.cz"{
+	import "generic-http-host"
+	address = "surr-test.cpp.cz"
+	vars.http_check["surr-test.cpp.cz"] = {http_vhost = "surr-test.cpp.cz", http_onredirect = "follow"}	
+	}
+object Host "surr-test.ph.koop.cz"{
+	import "generic-http-host"
+	address = "surr-test.ph.koop.cz"
+	vars.http_check["surr-test.ph.koop.cz"] = {http_vhost = "surr-test.ph.koop.cz", http_onredirect = "follow"}	
+	}
+object Host "surr-ws-test.cpp.cz"{
+	import "generic-http-host"
+	address = "surr-ws-test.cpp.cz"
+	vars.http_check["surr-ws-test.cpp.cz"] = {http_vhost = "surr-ws-test.cpp.cz", http_onredirect = "follow"}	
+	}
+object Host "surr-ws-test.ph.koop.cz"{
+	import "generic-http-host"
+	address = "surr-ws-test.ph.koop.cz"
+	vars.http_check["surr-ws-test.ph.koop.cz"] = {http_vhost = "surr-ws-test.ph.koop.cz", http_onredirect = "follow"}	
+	}
+object Host "surr-ws.cpp.cz"{
+	import "generic-http-host"
+	address = "surr-ws.cpp.cz"
+	vars.http_check["surr-ws.cpp.cz"] = {http_vhost = "surr-ws.cpp.cz", http_onredirect = "follow"}	
+	}
+object Host "surr-ws.ph.koop.cz"{
+	import "generic-http-host"
+	address = "surr-ws.ph.koop.cz"
+	vars.http_check["surr-ws.ph.koop.cz"] = {http_vhost = "surr-ws.ph.koop.cz", http_onredirect = "follow"}	
+	}
+object Host "surr.cpp.cz"{
+	import "generic-http-host"
+	address = "surr.cpp.cz"
+	vars.http_check["surr.cpp.cz"] = {http_vhost = "surr.cpp.cz", http_onredirect = "follow"}	
+	}
+object Host "surr.ph.koop.cz"{
+	import "generic-http-host"
+	address = "surr.ph.koop.cz"
+	vars.http_check["surr.ph.koop.cz"] = {http_vhost = "surr.ph.koop.cz", http_onredirect = "follow"}	
+	}
+object Host "susp-ws.cpp.cz"{
+	import "generic-http-host"
+	address = "susp-ws.cpp.cz"
+	vars.http_check["susp-ws.cpp.cz"] = {http_vhost = "susp-ws.cpp.cz", http_onredirect = "follow"}	
+	}
+object Host "waybill-test.cpp.cz"{
+	import "generic-http-host"
+	address = "waybill-test.cpp.cz"
+	vars.http_check["waybill-test.cpp.cz"] = {http_vhost = "waybill-test.cpp.cz", http_onredirect = "follow"}	
+	}
+object Host "waybill-test.ph.koop.cz"{
+	import "generic-http-host"
+	address = "waybill-test.ph.koop.cz"
+	vars.http_check["waybill-test.ph.koop.cz"] = {http_vhost = "waybill-test.ph.koop.cz", http_onredirect = "follow"}	
+	}
+object Host "waybill.cpp.cz"{
+	import "generic-http-host"
+	address = "waybill.cpp.cz"
+	vars.http_check["waybill.cpp.cz"] = {http_vhost = "waybill.cpp.cz", http_onredirect = "follow"}	
+	}
+object Host "waybill.ph.koop.cz"{
+	import "generic-http-host"
+	address = "waybill.ph.koop.cz"
+	vars.http_check["waybill.ph.koop.cz"] = {http_vhost = "waybill.ph.koop.cz", http_onredirect = "follow"}	
+	}
+object Host "z125-c11n-test.appl.services"{
+	import "generic-http-host"
+	address = "z125-c11n-test.appl.services"
+	vars.http_check["z125-c11n-test.appl.services"] = {http_vhost = "z125-c11n-test.appl.services", http_onredirect = "follow"}	
+	}
+object Host "z125-surr-batch-test.appl.services"{
+	import "generic-http-host"
+	address = "z125-surr-batch-test.appl.services"
+	vars.http_check["z125-surr-batch-test.appl.services"] = {http_vhost = "z125-surr-batch-test.appl.services", http_onredirect = "follow"}	
+	}
+object Host "z125-surr-batch.appl.services"{
+	import "generic-http-host"
+	address = "z125-surr-batch.appl.services"
+	vars.http_check["z125-surr-batch.appl.services"] = {http_vhost = "z125-surr-batch.appl.services", http_onredirect = "follow"}	
+	}
+object Host "z125-surr-test.appl.services"{
+	import "generic-http-host"
+	address = "z125-surr-test.appl.services"
+	vars.http_check["z125-surr-test.appl.services"] = {http_vhost = "z125-surr-test.appl.services", http_onredirect = "follow"}	
+	}
+object Host "z125-surr-ws-test.appl.services"{
+	import "generic-http-host"
+	address = "z125-surr-ws-test.appl.services"
+	vars.http_check["z125-surr-ws-test.appl.services"] = {http_vhost = "z125-surr-ws-test.appl.services", http_onredirect = "follow"}	
+	}
+object Host "z125-surr-ws.appl.services"{
+	import "generic-http-host"
+	address = "z125-surr-ws.appl.services"
+	vars.http_check["z125-surr-ws.appl.services"] = {http_vhost = "z125-surr-ws.appl.services", http_onredirect = "follow"}	
+	}
+object Host "z125-surr.appl.services"{
+	import "generic-http-host"
+	address = "z125-surr.appl.services"
+	vars.http_check["z125-surr.appl.services"] = {http_vhost = "z125-surr.appl.services", http_onredirect = "follow"}	
+	}
+object Host "zonatst.koop.cz"{
+	import "generic-http-host"
+	address = "zonatst.koop.cz"
+	vars.http_check["zonatst.koop.cz"] = {http_vhost = "zonatst.koop.cz", http_onredirect = "follow"}	
+	}
