@@ -75,7 +75,7 @@ sambashare:x:134:jcerny
 vboxsf:x:999:
 vboxdrmipc:x:998:
 docker:x:997:
-nagios:x:135:
+nagios:x:135:jcerny
 icingadb-redis:x:136:
 icingadb:x:996:
 icingaweb2:x:995:www-data

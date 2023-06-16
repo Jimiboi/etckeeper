@@ -49,3 +49,4 @@ icingadb-redis:x:127:136::/var/lib/icingadb-redis:/usr/sbin/nologin
 icingadb:x:998:996::/etc/icingadb:/sbin/nologin
 mysql:x:128:137:MySQL Server,,,:/nonexistent:/bin/false
 nm-openconnect:x:129:138:NetworkManager OpenConnect plugin,,,:/var/lib/NetworkManager:/usr/sbin/nologin
+icingadirector:x:997:995::/var/lib/icingadirector:/sbin/nologin
