@@ -82,3 +82,4 @@ icingaweb2:x:995:www-data
 mysql:x:137:
 nm-openconnect:x:138:
 prometheus:x:994:
+grafana:x:139:

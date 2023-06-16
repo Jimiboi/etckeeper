@@ -83,3 +83,4 @@ mysql:x:137:
 nm-openconnect:x:138:
 prometheus:x:994:
 grafana:x:139:
+node_exporter:x:1001:
