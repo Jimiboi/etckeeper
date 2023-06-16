@@ -1,0 +1,17 @@
+[connection]
+id=Wired connection 1
+uuid=b870468e-3b77-3fe7-92da-fd95c07f3587
+type=ethernet
+autoconnect-priority=-100
+
+[ethernet]
+mac-address=08:00:27:EA:DF:F9
+
+[ipv4]
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+method=auto
+
+[proxy]
