@@ -1,12 +1,12 @@
 [Unit]
-Description=Mount unit for gnome-3-38-2004, revision 119
+Description=Mount unit for snapd, revision 20290
 After=snapd.mounts-pre.target
 Before=snapd.mounts.target
 Before=local-fs.target
 
 [Mount]
-What=/var/lib/snapd/snaps/gnome-3-38-2004_119.snap
-Where=/snap/gnome-3-38-2004/119
+What=/var/lib/snapd/snaps/snapd_20290.snap
+Where=/snap/snapd/20290
 Type=squashfs
 Options=nodev,ro,x-gdu.hide,x-gvfs-hide
 LazyUnmount=yes
