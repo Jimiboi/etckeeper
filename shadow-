@@ -52,3 +52,4 @@ nm-openconnect:*:19503:0:99999:7:::
 icingadirector:!:19517::::::
 prometheus:!:19524::::::
 grafana:*:19524:0:99999:7:::
+node_exporter:!:19524:0:99999:7:::

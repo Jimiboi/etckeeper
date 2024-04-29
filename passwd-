@@ -52,3 +52,4 @@ nm-openconnect:x:129:138:NetworkManager OpenConnect plugin,,,:/var/lib/NetworkMa
 icingadirector:x:997:995::/var/lib/icingadirector:/sbin/nologin
 prometheus:x:996:994::/home/prometheus:/sbin/nologin
 grafana:x:130:139::/usr/share/grafana:/bin/false
+node_exporter:x:1001:1001::/home/node_exporter:/bin/false
