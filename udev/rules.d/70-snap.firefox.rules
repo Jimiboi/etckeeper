@@ -45,7 +45,7 @@ SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="2abe", ATTRS{idProduct
 SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="096e", ATTRS{idProduct}=="0850|0852|0853|0854|0856|0858|085a|085b|085d", TAG+="snap_firefox_firefox"
 # u2f-devices
 # GoTrust Idem Key
-SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="32a3", ATTRS{idProduct}=="3201", TAG+="snap_firefox_firefox"
+SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="32a3", ATTRS{idProduct}=="3201|3203", TAG+="snap_firefox_firefox"
 # u2f-devices
 # Google Titan U2F
 SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="18d1", ATTRS{idProduct}=="5026", TAG+="snap_firefox_firefox"
@@ -62,8 +62,8 @@ SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="2ccf", ATTRS{idProduct
 # JaCarta U2F
 SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="24dc", ATTRS{idProduct}=="0101", TAG+="snap_firefox_firefox"
 # u2f-devices
-# Ledger Blue + Nano S + Nano X
-SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="2c97", ATTRS{idProduct}=="0000|0001|0004|0005|0015|1005|1015|4005|4015", TAG+="snap_firefox_firefox"
+# Ledger Blue + Nano S + Nano X + Nano S+ + Ledger Stax
+SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="2c97", ATTRS{idProduct}=="0000|0001|0004|0005|0015|1005|1015|4005|4015|5005|5015|6005|6015", TAG+="snap_firefox_firefox"
 # u2f-devices
 # MIRKey
 SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="a2ac", TAG+="snap_firefox_firefox"
@@ -86,11 +86,17 @@ SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="1d50", ATTRS{idProduct
 # SoloKeys
 SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="1209", ATTRS{idProduct}=="5070|50b0|beee", TAG+="snap_firefox_firefox"
 # u2f-devices
+# Swissbit iShield Key
+SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="1370", ATTRS{idProduct}=="0911", TAG+="snap_firefox_firefox"
+# u2f-devices
 # Thetis Key
 SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="1ea8", ATTRS{idProduct}=="f025", TAG+="snap_firefox_firefox"
 # u2f-devices
 # Thetis U2F BT Fido2 Key
 SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="1ea8", ATTRS{idProduct}=="fc25", TAG+="snap_firefox_firefox"
+# u2f-devices
+# Token2 FIDO2 key
+SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="349e", ATTRS{idProduct}=="0010|0011|0012|0020|0021|0022|0200|0201|0202", TAG+="snap_firefox_firefox"
 # u2f-devices
 # Tomu board + chopstx U2F + SoloKeys + Flipper zero
 SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="cdab|a2ca|5741", TAG+="snap_firefox_firefox"
@@ -159,7 +165,7 @@ SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="2abe", ATTRS{idProduct
 SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="096e", ATTRS{idProduct}=="0850|0852|0853|0854|0856|0858|085a|085b|085d", TAG+="snap_firefox_geckodriver"
 # u2f-devices
 # GoTrust Idem Key
-SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="32a3", ATTRS{idProduct}=="3201", TAG+="snap_firefox_geckodriver"
+SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="32a3", ATTRS{idProduct}=="3201|3203", TAG+="snap_firefox_geckodriver"
 # u2f-devices
 # Google Titan U2F
 SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="18d1", ATTRS{idProduct}=="5026", TAG+="snap_firefox_geckodriver"
@@ -176,8 +182,8 @@ SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="2ccf", ATTRS{idProduct
 # JaCarta U2F
 SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="24dc", ATTRS{idProduct}=="0101", TAG+="snap_firefox_geckodriver"
 # u2f-devices
-# Ledger Blue + Nano S + Nano X
-SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="2c97", ATTRS{idProduct}=="0000|0001|0004|0005|0015|1005|1015|4005|4015", TAG+="snap_firefox_geckodriver"
+# Ledger Blue + Nano S + Nano X + Nano S+ + Ledger Stax
+SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="2c97", ATTRS{idProduct}=="0000|0001|0004|0005|0015|1005|1015|4005|4015|5005|5015|6005|6015", TAG+="snap_firefox_geckodriver"
 # u2f-devices
 # MIRKey
 SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="a2ac", TAG+="snap_firefox_geckodriver"
@@ -200,11 +206,17 @@ SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="1d50", ATTRS{idProduct
 # SoloKeys
 SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="1209", ATTRS{idProduct}=="5070|50b0|beee", TAG+="snap_firefox_geckodriver"
 # u2f-devices
+# Swissbit iShield Key
+SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="1370", ATTRS{idProduct}=="0911", TAG+="snap_firefox_geckodriver"
+# u2f-devices
 # Thetis Key
 SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="1ea8", ATTRS{idProduct}=="f025", TAG+="snap_firefox_geckodriver"
 # u2f-devices
 # Thetis U2F BT Fido2 Key
 SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="1ea8", ATTRS{idProduct}=="fc25", TAG+="snap_firefox_geckodriver"
+# u2f-devices
+# Token2 FIDO2 key
+SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="349e", ATTRS{idProduct}=="0010|0011|0012|0020|0021|0022|0200|0201|0202", TAG+="snap_firefox_geckodriver"
 # u2f-devices
 # Tomu board + chopstx U2F + SoloKeys + Flipper zero
 SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="cdab|a2ca|5741", TAG+="snap_firefox_geckodriver"
